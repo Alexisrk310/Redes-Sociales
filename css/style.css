@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+section {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif; }
+  section .content-flex {
+    display: flex; }
+    section .content-flex img {
+      width: 400px;
+      height: 450px;
+      filter: drop-shadow(30px 10px 4px #4444dd);
+      padding-bottom: 150px; }
+
+main hr {
+  width: 484px;
+  background: #4444dd; }
+main h1 {
+  color: blue; }
+
+.parrafo {
+  width: 500px;
+  height: 100px; }
+
+.redes-sociales {
+  font-size: 25px;
+  position: relative;
+  bottom: 20px;
+  padding-left: 30px;
+  position: fixed; }
+  .redes-sociales .fa-facebook-square:hover {
+    color: blue; }
+
+.fa-twitter:hover {
+  color: #29FFF0; }
+
+.fa-instagram:hover {
+  color: #FF71E7; }
+
+.fab {
+  color: #000000; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #EECCFF; }
+
+.ul-li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 75px;
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%); }
+  .ul-li li {
+    list-style: none; }
+    .ul-li li a {
+      text-decoration: none;
+      margin: 0px 10px;
+      color: white;
+      font-family: "Sriracha", cursive; }
+      .ul-li li a:hover {
+        color: #BBCD00; }
+      .ul-li li a:active {
+        color: #4444dd; }
+
+h4 {
+  text-align: center;
+  font-family: "Sriracha", cursive;
+  color: #ffffff;
+  padding-top: 5px;
+  user-select: none; }
+
+.fondo-logo {
+  box-shadow: inset 0px -8px 8px 0px rgba(0, 0, 0, 0.31);
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  height: 75px; }
+  .fondo-logo .logo {
+    display: flex; }
+  .fondo-logo form {
+    width: 100vw;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 8px; }
+    .fondo-logo form input[type="text"] {
+      font-family: "Sriracha", cursive;
+      border-radius: 5px;
+      width: 400px;
+      height: 25px;
+      outline: none;
+      margin: auto 0px;
+      padding-left: 10px; }
+    .fondo-logo form input[type="button"] {
+      font-family: "Sriracha", cursive;
+      border-radius: 80px;
+      padding: 4px 14px;
+      background: #DC00C7;
+      outline: none; }
+      .fondo-logo form input[type="button"]:active {
+        opacity: 0.8; }
+
+.container {
+  margin: 5% 10%; }
+
+/*# sourceMappingURL=style.css.map */
